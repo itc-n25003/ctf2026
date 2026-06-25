@@ -37,4 +37,4 @@ Require valid-user
 8. sudo systemctl restart apache2
 
 ブラウザからサーバが立ち上がっている確認する
-http://[ip-adrress]
+http://[ip-address]
