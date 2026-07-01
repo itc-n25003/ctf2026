@@ -1,10 +1,11 @@
 1. sudo apt install apache2
 2. cd /var/www/html
 3. sudo vi .htaccess
-```.htaccess
+```
+# .htaccessの設定
 AuthType Basic # 認証方式の指定
 AuthName "Please enter your ID and PW"
-AuthUserFile /var/www/html/.htpasswd  #参照するパスワードファイルのパス 
+AuthUserFile /etc/apache2/.htpasswd  #参照するパスワードファイルのパス 
 Require valid-user
 ```
 4. cd /etc/apache2
