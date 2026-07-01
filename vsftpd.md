@@ -4,6 +4,7 @@
 3. sudo vi vsftpd.conf
 ```
 listen=NO
+listen_ipv6=YES
 ```
 4. sudo systemctl restart vsftpd
 
